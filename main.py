@@ -2,10 +2,10 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-print("AutoMP3")
-print("Disponible para Chrome Versión 78+ | Creado con YtMp3.cc")
-url = str(input("Ingresa la URL del vídeo en YouTube: "))
-print("¿Deseas descargar audio o vídeo?")
+print("------------------------ AutoMP3 ------------------------")
+print("Disponible para Chrome Versión 78+ | Enlazado con YtMp3.cc")
+url = str(input("> URL del vídeo en YouTube: "))
+print("> ¿Deseas descargar audio o vídeo?")
 print("a -> Audio")
 print("v -> Video")
 type_download = str(input("Escribe (a/v): "))
@@ -41,7 +41,7 @@ download_button.click()
 print("'" + title_download + "' descargando...")
 
 if type_download == 'A':
-    print("Audio descargando satisfactoriamente")
+    print("Audio descargando exitosamente")
 else:
-    print("Video descargando satisfactoriamente")
+    print("Video descargando exitosamente")
 
