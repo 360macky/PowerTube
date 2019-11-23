@@ -1,12 +1,16 @@
-# AutoMP3
-Automatización de descarga de música desde YouTube.
+<h1 align="center">🐍 PowerTube 🎞️</h1>
 
-## Funcionamiento/Deployment
-**AutoMP3** funciona con el parquete `selenium`, usando la terminal puedes descargarlo:
+<p align="center">Automation of video download from YouTube using PyTube.</p>
+
+## Deployment 🛫
+Once you clone the repository, open your terminal line:
+
+💎 Get all the packages:
+```bash
+pip install -r requirements.txt
 ```
-pip install selenium
-```
-Una vez instalado, simplemente ejecútalo como script:
-```
+
+🚀 Run the script
+```bash
 python main.py
 ```
